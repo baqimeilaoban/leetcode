@@ -7,6 +7,7 @@ import (
 )
 
 func main() {
-	res := simple.RomanToInt("MCMMXCIV")
+	strs := []string{"dog", "racecar", "car"}
+	res := simple.LongestCommonPrefix(strs)
 	fmt.Println(res)
 }
