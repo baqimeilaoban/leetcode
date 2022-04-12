@@ -34,3 +34,21 @@ func min(str1, str2 string) int {
 	}
 	return len(str2)
 }
+
+// LongestCommonPrefixOpt 纵向扫描
+func LongestCommonPrefixOpt(strs []string) string {
+	var res string
+	if len(strs) == 0 {
+		return res
+	}
+	for i := 0; i < len(strs[0]); i++ {
+		for j := 1; j < len(strs); j++ {
+			if i == len(strs[j]) || strs[j][i] != strs[0][i] {
+				res = strs[0][:i]
+				return res
+			}
+		}
+	}
+	// 防止传过来的str数组中只有一个字符串
+	return strs[0]
+}

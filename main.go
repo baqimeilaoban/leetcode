@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	strs := []string{"dog", "racecar", "car"}
-	res := simple.LongestCommonPrefix(strs)
+	strs := []string{"leets", "leetcode", "lee", "leets"}
+	res := simple.LongestCommonPrefixOpt(strs)
 	fmt.Println(res)
 }
