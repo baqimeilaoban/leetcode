@@ -2,13 +2,13 @@ package simple
 
 // 两数之和
 
-func TwoSum(nums[]int, target int) []int {
+func TwoSum(nums []int, target int) []int {
 	res := make([]int, 2)
 	for i := 0; i < len(nums); i++ {
 		res[0] = i
-		for j := i+1; j < len(nums); j++ {
+		for j := i + 1; j < len(nums); j++ {
 			res[1] = j
-			if nums[i] + nums[j] == target {
+			if nums[i]+nums[j] == target {
 				return res
 			}
 		}
