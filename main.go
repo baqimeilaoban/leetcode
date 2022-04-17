@@ -7,7 +7,8 @@ import (
 )
 
 func main() {
-	haystack := "aaaaa"
-	needle := "bba"
-	fmt.Println(simple.StrStr(haystack, needle))
+	nums := []int{1, 3}
+	target := 3
+	fmt.Println(simple.SearchInsert(nums, target))
+	fmt.Println(3 << 1)
 }
