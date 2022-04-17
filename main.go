@@ -7,8 +7,6 @@ import (
 )
 
 func main() {
-	nums := []int{1, 3}
-	target := 3
-	fmt.Println(simple.SearchInsert(nums, target))
-	fmt.Println(3 << 1)
+	nums := []int{-2, 1, -3, 4, -1, 2, 1, -5, 4}
+	fmt.Println(simple.MaxSubArray(nums))
 }
