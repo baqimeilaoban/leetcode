@@ -7,6 +7,6 @@ import (
 )
 
 func main() {
-	s := "Today is a nice day"
-	fmt.Println(simple.LengthOfLastWord(s))
+	s := []int{9, 9, 9}
+	fmt.Println(simple.PlusOne(s))
 }
