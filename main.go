@@ -7,6 +7,7 @@ import (
 )
 
 func main() {
-	s := []int{9, 9, 9}
-	fmt.Println(simple.PlusOne(s))
+	a := "1010"
+	b := "1011"
+	fmt.Println(simple.AddBinary(a, b))
 }
