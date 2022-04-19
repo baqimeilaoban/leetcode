@@ -7,7 +7,6 @@ import (
 )
 
 func main() {
-	a := "1010"
-	b := "1011"
-	fmt.Println(simple.AddBinary(a, b))
+	a := 8
+	fmt.Println(simple.MySqrtOpt(a))
 }
