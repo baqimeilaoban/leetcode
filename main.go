@@ -7,6 +7,6 @@ import (
 )
 
 func main() {
-	a := 8
-	fmt.Println(simple.MySqrtOpt(a))
+	a := 2
+	fmt.Println(simple.ClimbStairs(a))
 }
