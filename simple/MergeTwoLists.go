@@ -1,10 +1,5 @@
 package simple
 
-type ListNode struct {
-	Val  int
-	Next *ListNode
-}
-
 func MergeTwoLists(list1 *ListNode, list2 *ListNode) *ListNode {
 	// 边界条件
 	if list1 == nil {
