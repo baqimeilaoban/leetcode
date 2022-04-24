@@ -7,6 +7,10 @@ import (
 )
 
 func main() {
-	a := 2
-	fmt.Println(simple.ClimbStairs(a))
+	nums1 := []int{1}
+	nums2 := []int{}
+	m := 1
+	n := 0
+	simple.MergeOpt(nums1, m, nums2, n)
+	fmt.Println(nums1)
 }
