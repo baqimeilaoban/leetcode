@@ -7,6 +7,6 @@ import (
 )
 
 func main() {
-	res := simple.GetRowOpt(3)
+	res := simple.Test([]int{2, 3, 3}, 6)
 	fmt.Println(res)
 }
