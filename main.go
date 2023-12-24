@@ -2,11 +2,10 @@ package main
 
 import (
 	"fmt"
-
-	"github.com/baqimeilaoban/leetcode/simple"
+	"github.com/baqimeilaoban/leetcode/middle"
 )
 
 func main() {
-	res := simple.Test([]int{2, 3, 3}, 6)
+	res := middle.GroupAnagramsMethod2([]string{"eat", "tea", "tan", "ate", "nat", "bat"})
 	fmt.Println(res)
 }
